@@ -1,0 +1,46 @@
+h1, h2 {
+    color: green;
+    font-size: 40px;
+    margin: 0;
+    /* Margin - обращение сразу ко всем сторонам, если мы напишем margin top - будет только верх и т.д. */
+}
+.oll {
+    color: red;
+    font-size: 40px;
+}
+.boxWrapper {
+    margin-top: 30px;
+    display: flex;
+}
+.box {
+    border: 2px solid black;
+    /* solid - сплошная линия, dashed - пунктиром */
+    width: 200px;
+    /* width лучше не использовать для контента, для рамок, границ - пожалуйста */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+/* #el1 {
+    color: coral;
+}  */
+
+.active {
+    color: gold;
+}
+button {
+    width: 250px;
+    height: 100px;
+}
+.ice {
+    color: black;
+    width: 300px;
+    height: 100px;
+}
